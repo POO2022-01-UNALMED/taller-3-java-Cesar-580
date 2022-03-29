@@ -60,7 +60,7 @@ public class TV {
 	}
 	
 	//NumTV
-	public static void setTV(int numTV) {
+	public static void setNumTV(int numTV) {
 		return;
 	}
 	public static int getNumTV() {
