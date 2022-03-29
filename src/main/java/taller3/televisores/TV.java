@@ -16,7 +16,7 @@ public class TV {
 		this.precio = 500;
 		this.estado = estado;
 		this.volumen = 1;
-		numTV += 1; 
+		numTV++; 
 	}
 	
 	// Marca
