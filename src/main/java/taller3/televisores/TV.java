@@ -45,7 +45,7 @@ public class TV {
 	
 	//Volumen
 	public void setVolumen(int volumen) {
-		return;
+		this.volumen = volumen;
 	}
 	public int getVolumen() {
 		return volumen;
@@ -81,24 +81,24 @@ public class TV {
 	
 	//CanalUp - CanalDown
 	public void canalUp() {
-		if ((estado) && (this.canal<120)) {
+		if ((estado) && (canal<120)) {
 			canal++;
 		}
 	}
 	public void canalDown() {
-		if ((estado) && (this.canal> 1)) {
+		if ((estado) && (canal> 1)) {
 			canal--;
 		}
 	}
 	
 	//VolumenUp - VolumenDown
 	public void volumenUp() {
-		if ((estado) && (this.volumen <7)) {
+		if ((estado) && (volumen <7)) {
 			volumen++;
 		}
 	}
 	public void volumenDown() {
-		if ((estado) && (this.volumen>0)) {
+		if ((estado) && (volumen>0)) {
 			volumen--;
 		}
 	}
