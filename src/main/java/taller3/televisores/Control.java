@@ -5,10 +5,10 @@ public class Control {
 	// Atributo
 	private TV tv;
 
-	public void enlazar(TV tv) {
-		this.tv = tv;
-		tv.setControl(this);
-	}
+	// public void enlazar(TV tv) {
+	// 	this.tv = tv;
+	// 	tv.setControl(this);
+	// }
 
 	// Apagado-Encendido-Estado
 	public void turnOn() {
@@ -35,16 +35,16 @@ public class Control {
 		tv.volumenDown();
 	}
 
-	public void setCanal(int canal) {
-		tv.setCanal(canal);
-	}
+	public void enlazar(TV tv) {
+        this.tv = tv;
+        tv.setControl(this);
+    }
 
-	// TV
-	public void setTV(TV tv) {
-		this.tv = tv;
-	}
+    public void setTv(TV tv) {
+        this.tv = tv;
+    }
 
-	public TV getTV() {
-		return tv;
-	}
+    public TV getTv() {
+        return tv;
+    }
 }
