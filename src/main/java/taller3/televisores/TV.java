@@ -53,7 +53,7 @@ public class TV {
 	
 	// Canal	
 	public void setCanal(int canal) {
-		return;
+		this.canal = canal;
 	}
 	public int getCanal() {
 		return canal;
