@@ -5,9 +5,9 @@ public class Control {
 	// Atributo
 	private TV tv;
 
-	public void enlazar(TV televisor) {
-		this.tv = televisor;
-		this.tv.setControl(this);
+	public void enlazar(TV tv) {
+		this.tv = tv;
+		tv.setControl(this);
 	}
 
 	// Apagado-Encendido-Estado
@@ -40,8 +40,8 @@ public class Control {
 	}
 
 	// TV
-	public void setTV(TV televisor) {
-		tv = televisor;
+	public void setTV(TV tv) {
+		this.tv = tv;
 	}
 
 	public TV getTV() {
