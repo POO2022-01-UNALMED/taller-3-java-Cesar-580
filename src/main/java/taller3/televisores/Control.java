@@ -7,7 +7,7 @@ public class Control {
 
 	public void enlazar(TV televisor) {
 		this.tv = televisor;
-		thhis.tv.setControl(this);
+		this.tv.setControl(this);
 	}
 
 	// Apagado-Encendido-Estado
