@@ -10,13 +10,12 @@ public class TV {
 	private Control control;
 	public static int numTV;
 	
-	public TV(Marca marca,boolean estado,Control control) {
+	public TV(Marca marca,boolean estado) {
 		this.marca = marca;
 		this.canal = 1;
 		this.precio = 500;
 		this.estado = estado;
 		this.volumen = 1;
-		this.control = control;
 		numTV += 1; 
 	}
 	
